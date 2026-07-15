@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tour du lịch | Elite Travel</title>
+<meta name="description" content="Danh sách tour du lịch trong nước và quốc tế của Elite Travel: Hạ Long, Sapa, Phú Quốc, Đà Nẵng - Hội An, Thái Lan, Singapore.">
+<link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap&subset=vietnamese" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="img/logo.svg" alt="Elite Travel"></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+        <li><a href="tour-du-lich.html" class="current">Tour du lịch</a></li>
+        <li><a href="chinh-sach.html">Chính sách</a></li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+84962057961" class="btn btn-outline btn-sm">0962 057 961</a>
+      <a href="lien-he.html" class="btn btn-primary btn-sm">Nhận báo giá</a>
+    </div>
+    <button class="nav-toggle" aria-label="Mở menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="hero" style="padding:60px 0;">
+  <div class="container" style="grid-template-columns:1fr;">
+    <div>
+      <span class="hero-badge">Tour du lịch</span>
+      <h1 style="font-size:34px;">Tour du lịch trong nước &amp; quốc tế</h1>
+      <p class="lead">Giá tour bên dưới mang tính tham khảo, được tùy chỉnh theo số lượng khách, thời điểm khởi hành và dịch vụ đi kèm. Liên hệ để nhận báo giá chính xác cho đoàn của bạn.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="tabs">
+      <button class="tab-btn active" data-target="all">Tất cả</button>
+      <button class="tab-btn" data-target="domestic">Trong nước</button>
+      <button class="tab-btn" data-target="international">Quốc tế</button>
+    </div>
+
+    <div data-tour-group="domestic">
+      <h2 style="margin-bottom:20px;">Tour trong nước</h2>
+      <div class="grid grid-3">
+        <div class="tour-card">
+          <div class="thumb"><img src="img/tours/ha-long.jpg" alt="Vịnh Hạ Long" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.textContent='HẠ LONG – NINH BÌNH';"></div>
+          <div class="body">
+            <div class="meta">3 ngày 2 đêm · Trong nước</div>
+            <h3>Vịnh Hạ Long &amp; Tràng An</h3>
+            <p>Du thuyền ngắm vịnh Hạ Long, hang Sửng Sốt, khám phá Tràng An – Ninh Bình bằng thuyền nan.</p>
+            <div class="price">Liên hệ báo giá<small>Đã gồm khách sạn, xe đưa đón, hướng dẫn viên</small></div>
+          </div>
+        </div>
+        <div class="tour-card">
+          <div class="thumb"><img src="img/tours/sapa.jpg" alt="Sapa" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.textContent='SAPA – FANSIPAN';"></div>
+          <div class="body">
+            <div class="meta">2 ngày 1 đêm · Trong nước</div>
+            <h3>Sapa – Chinh phục Fansipan</h3>
+            <p>Cáp treo Fansipan – nóc nhà Đông Dương, bản Cát Cát, chợ phiên vùng cao Tây Bắc.</p>
+            <div class="price">Liên hệ báo giá<small>Đã gồm khách sạn, xe đưa đón, hướng dẫn viên</small></div>
+          </div>
+        </div>
+        <div class="tour-card">
+          <div class="thumb"><img src="img/tours/phu-quoc.jpg" alt="Phú Quốc" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.textContent='PHÚ QUỐC';"></div>
+          <div class="body">
+            <div class="meta">4 ngày 3 đêm · Trong nước</div>
+            <h3>Phú Quốc nghỉ dưỡng</h3>
+            <p>Cáp treo Hòn Thơm dài nhất thế giới, tắm biển Bãi Sao, thưởng thức hải sản tươi sống.</p>
+            <div class="price">Liên hệ báo giá<small>Đã gồm khách sạn, vé máy bay khứ hồi</small></div>
+          </div>
+        </div>
+        <div class="tour-card">
+          <div class="thumb"><img src="img/tours/da-nang.jpg" alt="Đà Nẵng Hội An" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.textContent='ĐÀ NẴNG – HỘI AN';"></div>
+          <div class="body">
+            <div class="meta">3 ngày 2 đêm · Trong nước</div>
+            <h3>Đà Nẵng – Hội An</h3>
+            <p>Bà Nà Hills &amp; Cầu Vàng, phố cổ Hội An về đêm, tắm biển Mỹ Khê.</p>
+            <div class="price">Liên hệ báo giá<small>Đã gồm khách sạn, vé máy bay khứ hồi</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-tour-group="international" style="margin-top:50px;">
+      <h2 style="margin-bottom:20px;">Tour quốc tế</h2>
+      <div class="grid grid-3">
+        <div class="tour-card">
+          <div class="thumb"><img src="img/tours/bangkok.jpg" alt="Bangkok Thái Lan" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.textContent='THÁI LAN';"></div>
+          <div class="body">
+            <div class="meta">5 ngày 4 đêm · Quốc tế</div>
+            <h3>Bangkok – Pattaya</h3>
+            <p>Chùa Vàng, đảo Coral, mua sắm tại Bangkok, trải nghiệm ẩm thực đường phố Thái Lan.</p>
+            <div class="price">Liên hệ báo giá<small>Đã gồm vé máy bay, khách sạn, visa hỗ trợ</small></div>
+          </div>
+        </div>
+        <div class="tour-card">
+          <div class="thumb"><img src="img/tours/singapore.jpg" alt="Singapore" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.textContent='SINGAPORE';"></div>
+          <div class="body">
+            <div class="meta">4 ngày 3 đêm · Quốc tế</div>
+            <h3>Singapore khám phá</h3>
+            <p>Gardens by the Bay, đảo Sentosa, Marina Bay Sands, Universal Studios.</p>
+            <div class="price">Liên hệ báo giá<small>Đã gồm vé máy bay, khách sạn</small></div>
+          </div>
+        </div>
+        <div class="tour-card">
+          <div class="body" style="justify-content:center;align-items:center;text-align:center;padding:40px 22px;">
+            <h3>Chưa thấy điểm đến bạn muốn?</h3>
+            <p>Chúng tôi thiết kế lịch trình theo yêu cầu riêng cho nhóm, gia đình và công ty.</p>
+            <a href="lien-he.html" class="btn btn-primary btn-sm">Yêu cầu lịch trình riêng</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container">
+    <h2>Cần tư vấn chọn tour phù hợp?</h2>
+    <p>Gửi yêu cầu, đội ngũ Elite Travel sẽ liên hệ tư vấn trong ngày.</p>
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="lien-he.html" class="btn btn-primary">Nhận báo giá miễn phí</a>
+      <a href="https://zalo.me/0962057961" class="btn btn-outline" style="border-color:#fff;color:#fff;">Nhắn Zalo</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Elite Travel</h4>
+        <p style="font-size:14px;">Công ty TNHH Du lịch Elite – tổ chức tour du lịch trong nước và quốc tế, đồng hành cùng bạn trong mỗi hành trình.</p>
+      </div>
+      <div>
+        <h4>Liên kết nhanh</h4>
+        <ul>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="tour-du-lich.html">Tour du lịch</a></li>
+          <li><a href="chinh-sach.html">Chính sách &amp; điều khoản</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <ul>
+          <li>Số 33 phố Giang Văn Minh, P. Ngọc Hà, Hà Nội</li>
+          <li><a href="tel:+84962057961">0962 057 961</a></li>
+          <li><a href="mailto:elitetravel33gvm@gmail.com">elitetravel33gvm@gmail.com</a></li>
+          <li><a href="https://zalo.me/0962057961">Zalo: 0962 057 961</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-legal-line">© <span class="footer-year">2026</span> Công ty TNHH Du lịch Elite (Elite Travel Co., Ltd) · MSDN 0111549638, cấp ngày 25/06/2026 tại Hà Nội.</div>
+      <div>Người đại diện pháp luật: Ông Hà Việt Anh</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
