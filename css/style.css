@@ -249,20 +249,6 @@ section.alt { background: var(--white); }
 .tour-card .price .btn { width: 100%; text-align: center; }
 .tour-card .price small { color: #8a8a8a; font-weight: 500; font-size: 12px; }
 
-.tour-itinerary { margin: 14px 0 0; border-top: 1px solid var(--cream-dark); padding-top: 14px; }
-.tour-itinerary summary {
-  cursor: pointer; font-weight: 700; color: var(--navy); font-size: 14px;
-  list-style: none; display: flex; align-items: center; gap: 6px;
-}
-.tour-itinerary summary::-webkit-details-marker { display: none; }
-.tour-itinerary summary::after { content: '▾'; color: var(--gold); margin-left: auto; transition: transform .15s ease; }
-.tour-itinerary[open] summary::after { transform: rotate(180deg); }
-.tour-itinerary .itinerary-content { padding-top: 14px; font-size: 13.5px; }
-.tour-itinerary h4 {
-  font-size: 12px; text-transform: uppercase; letter-spacing: .5px;
-  color: var(--gold); margin: 16px 0 8px;
-}
-.tour-itinerary h4:first-child { margin-top: 0; }
 .highlight-list, .day-list { margin: 0; padding-left: 18px; }
 .highlight-list li, .day-list li { margin-bottom: 6px; }
 .inclusion-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
